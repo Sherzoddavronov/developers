@@ -1,0 +1,120 @@
+ * {
+     font-family: sans-serif;
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ footer {
+     background-color: #232233;
+     padding: 10px 135px;
+     /* align-items: center; */
+ }
+
+ .footer {
+     display: flex;
+     justify-content: space-between;
+     color: white;
+     margin-bottom: 69px;
+     gap: 24px;
+ }
+
+ .footer>div {
+     width: 26%;
+ }
+
+ .footer .logo {
+     font-size: 31.25px;
+     font-weight: 700;
+     line-height: 47px;
+     margin-bottom: 11px;
+ }
+
+ .footer .logo+p {
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     margin-bottom: 38px;
+ }
+
+ .footer .logo+div {
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .footer .logo+div>a {
+     color: white;
+ }
+
+ .footer .icons {
+     display: flex;
+     gap: 25px;
+ }
+
+ .footer .icons>i:hover {
+     cursor: pointer;
+     color: blue;
+     transition-duration: 1s;
+ }
+
+ .footer .icons>span {
+     padding: 1px;
+     background-color: white;
+ }
+
+ .footer .email-input {
+     max-width: 369px;
+     background-color: white;
+     padding: 10px 5px 10px 10px;
+     border-radius: 5px;
+ }
+
+ .footer .email-input>input {
+     outline: none;
+     border: none;
+ }
+
+ .footer .email-input>i {
+     background-color: #5956E9;
+     color: white;
+     padding: 4px;
+     float: right;
+     border-radius: 5px;
+ }
+
+ @media (min-width: 769px) and (max-width: 1440px) {
+    footer{
+        padding: 10px 40px;
+    }
+    .footer > div{
+        width: 33%;
+    }
+    .footer .logo{
+        font-size: 25px;
+    }
+ }
+
+ @media (min-width: 375px) and (max-width: 768px){
+    footer{
+        padding: 10px 16px;
+    }
+    .footer > div{
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer .email-input {
+        outline: none;
+        border: none;
+        width: 100%;
+    }
+}
+
