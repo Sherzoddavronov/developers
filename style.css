@@ -1,0 +1,57 @@
+.asad {
+    display: flex;
+    border: 1px solid;
+    width: 1470px;
+    height: 750px;
+    background-image: url(./salom\ koookkk.jpg);
+}
+
+.asad2 {
+    border: 10px solid;
+    width: 430px;
+    height: 420px;
+    border-color: rgb(175, 192, 244);
+    position: absolute;
+    z-index: 1;
+    margin-top: 135px;
+    margin-left: 180px;
+}
+
+.asad3 {
+    border: 1px solid;
+    width: 400px;
+    height: 350px;
+    margin-top: 180px;
+    margin-left: 150px;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+}
+
+.asad4 {
+    text-align: center;
+    color: blue;
+    border-color: white;
+}
+
+.asad5 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.asad6 {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.asad7 {
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.asad8 {
+    border-radius: 50px;
+    width: 380px;
+    height: 750px;
+    margin-left: 1010px;
+}

@@ -1,0 +1,121 @@
+.jorabek{
+    background-image: url('./img/Rectangle\ 14.png');
+    color: #ffffffff;
+    text-align: center;
+    margin-top: 40px;
+}
+.jorabek-max_c{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40px; */
+    /* border: 1px solid #ffffffff; */
+}
+.jorabek-sarlavha{
+    width: 601px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.jorabek-max_c > div>div{
+    margin-top: 40px;
+}
+.jorabek-max_c > div{
+    /* border: 1px solid #ffffffff; */
+    width: 355px;
+    text-align: right;
+}
+.jorabek-card_1{
+    width: 297px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.jorabek-card_2{
+    width: 100%;
+    text-align: right;
+    padding-top: 30px;
+}
+.jorabek-card_3{
+    width: 100%;
+    text-align: right;
+    padding-top: 120px;
+}
+.jorabek-card_4{
+    width: 100%;
+    text-align: left;
+    padding-top: 30px;
+}
+.jorabek-card_5{
+    width: 100%;
+    text-align: left;
+    padding-top: 120px;
+}
+.jorabek-card_6{
+    width: 319px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.jorabek-max_c > img{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid #ffffffff; */
+}
+
+@media (max-width: 768px) {
+    .jorabek-max_c > img{
+        width: 250px;
+        padding-top: 20px;
+    }
+    .jorabek-max_c > div{
+        width: 230px;
+    }
+    .jorabek-card_3{
+        padding-top: 50px;
+    }
+    .jorabek-card_5{
+        padding-top: 20px;
+    }
+    .jorabek-sarlavha > p > span:last-child{
+        display: none;
+    }
+    .jorabek-sarlavha{
+        width: 450px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .jorabek-max_c{
+        display: block;
+    }
+    .jorabek-max_c > div{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        margin: 0;
+    }
+    .jorabek-max_c > div > div{
+        text-align: center;
+        padding-top: 0px;
+    }
+    .jorabek-sarlavha > p > span:first-child{
+        display: none;
+    }
+    .jorabek-sarlavha > p > span:last-child{
+        display: none;
+    }
+    .jorabek-sarlavha{
+        width: 280px;
+    }
+    .jorabek-card_4{
+        margin-top: 0px;
+        padding-top: 0px;
+        padding: none;
+    }
+    .jorabek-card_6{
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+    .jorabek-max_c > .jorabek-card_c2>div:first-child{
+        margin-top: 0px;
+    }
+}
